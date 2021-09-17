@@ -1,2 +1,2 @@
-# StateMVVM
-iOS state MVVM architecture
+# StateMVP
+iOS state MVP architecture
