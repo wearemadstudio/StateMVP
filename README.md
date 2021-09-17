@@ -77,6 +77,8 @@ class ExampleViewController: BaseViewController<ExampleState, ExampleEvent, Exam
 
 That's it!
 
+To read more about roles of Presenter and View in a nutshell, read this: https://riptutorial.com/ios/topic/9467/mvp-architecture
+
 ## License
 
 `StateMVP` is released under a MIT License. See LICENSE file for details.
