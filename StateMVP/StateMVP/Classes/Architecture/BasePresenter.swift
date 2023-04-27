@@ -7,6 +7,14 @@ open class BasePresenter<S, E> {
         
     open func loaded() { }
     
+    open func viewWillAppear() { }
+    
+    open func viewDidAppear() { }
+    
+    open func viewWillDisappear() { }
+    
+    open func viewDidDisappear() { }
+    
     open func updateState(_ state: S) {
         stateSignal?(state)
     }

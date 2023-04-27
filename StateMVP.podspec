@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name              = 'StateMVP'
-s.version           = '1.0.0'
+s.version           = '1.1.0'
 s.summary           = 'MVP Architecture with States and Events'
 s.homepage          = 'https://github.com/wearemadru/StateMVP'
 s.description = <<-DESC
