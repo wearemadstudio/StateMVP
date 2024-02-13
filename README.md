@@ -4,14 +4,14 @@ A simple MVP architecture using states and events for binding view
 
 ## System Requirements
 
-* Deployment target iOS 11.0+
-* Xcode 11.0+
+* Deployment target iOS 12.0+, visionOS 1.0+
+* Xcode 13.0+
 * Swift 5.0+
 
 ## Installation
 
-`StateMVP` can be installed with [CocoaPods](http://cocoapods.org). Simply add
-`pod 'StateMVP'` to your Podfile.
+`StateMVP` can be installed with SPM Simply add
+`https://github.com/wearemadstudio/StateMVP` to your project.
 
 ## Usage
 
