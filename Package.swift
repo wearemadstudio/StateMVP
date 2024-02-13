@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "StateMVP",
     platforms: [
-        .iOS(.v11),
+        .iOS(.v12),
         .visionOS(.v1)
     ],
     products: [
