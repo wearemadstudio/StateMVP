@@ -21,26 +21,6 @@ where S: BaseState, E: BaseEvent, P: BasePresenter<S, E>
         presenter.loaded()
     }
     
-    open override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        presenter.viewWillAppear()
-    }
-    
-    open override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        presenter.viewDidAppear()
-    }
-    
-    open override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        presenter.viewWillDisappear()
-    }
-    
-    open override func viewDidDisappear(_ animated: Bool) {
-        super.viewDidDisappear(animated)
-        presenter.viewDidDisappear()
-    }
-    
     open func setupUI() { }
     
     open func handle(_ event: Event) { }
